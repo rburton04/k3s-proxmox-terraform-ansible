@@ -40,6 +40,7 @@ it can take a minute to add the package to the image.
 
 ```bash
 virt-customize focal-server-cloudimg-amd64.img --install qemu-guest-agent
+updated - sudo virt-customize -a focal-server-cloudimg-amd64.img --install qemu-guest-agent
 ```
 
 now that we have the image, we need to move it to the Proxmox server.
